@@ -66,7 +66,7 @@ public class Config {
             0xFFCCCCCC,
             0xFFAAAAAA,
             0xFF888888,
-            0xFF66FFFFFF,
+            0xFF66FFFF,
             0xFF9B5DE5,
             0xFF00F5D4
     };
