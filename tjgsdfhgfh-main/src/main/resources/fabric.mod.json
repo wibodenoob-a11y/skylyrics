@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "skylyrics",
+  "version": "${version}",
+  "name": "SkyLyrics",
+  "description": "Beautiful floating lyrics with word-by-word highlighting, max-words limit, sky mode, color themes, and a modern settings menu. Inspired by Spotify-style karaoke bars.",
+  "authors": ["you"],
+  "contact": {
+    "homepage": "https://github.com/yourname/skylyrics",
+    "sources": "https://github.com/yourname/skylyrics"
+  },
+  "license": "MIT",
+  "icon": "assets/skylyrics/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.skylyrics.client.SkyLyricsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
